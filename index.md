@@ -2,5 +2,7 @@
 layout: default
 title: Dominion Enterprises
 ---
-### Temp
-Content here
+### Public Repositories
+{% for repo in site.github.public_repositories %}
+* [{{ repo.name }}]({{ repo.html_url }})
+{% endfor %}
