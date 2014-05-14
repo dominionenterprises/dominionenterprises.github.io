@@ -36,13 +36,8 @@ header h2 {
   -webkit-font-smoothing: antialiased;
 }
 
-ul li {
-  list-style: none;
-}
-
 ul li:before {
   content: ">>";
-  margin-left: -37px;
   margin-right: 21px;
 }
 
